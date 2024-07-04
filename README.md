@@ -1,4 +1,4 @@
-[![Grupo do WhatsApp](https://img.shields.io/badge/WhatsApp-Grupo%20IZING-brightgreen.svg)](https://chat.whatsapp.com/Ge1rB20Cp6JA5QbIX4ZulJ)
+[![Grupo do WhatsApp](https://img.shields.io/badge/Grupo_Whatsapp-FlowDeskPro-blue)](https://chat.whatsapp.com/Ge1rB20Cp6JA5QbIX4ZulJ)
 
 # FlowDeskPro com Painel SaaS
 
