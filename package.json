@@ -1,6 +1,6 @@
 {
   "name": "FlowDeskPro",
-  "version": "1.0.0",
+  "version": "2.5.0",
   "description": "FlowDeskPro - Sistema de atendimentos multicanal",
   "main": "index.js",
   "private": true,
