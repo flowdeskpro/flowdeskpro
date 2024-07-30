@@ -405,6 +405,25 @@
           </span>
         </div>
         <q-separator />
+        <q-item tag="label" v-ripple v-if="profile == 'admin'">
+          <q-card
+              class="bg-white btn-rounded q-mt-sm"
+              style="width: 100%"
+              bordered
+              flat
+            >
+              <q-card-section class="text-bold q-pa-sm ">
+                <q-btn
+                  flat
+                  class="bg-padrao btn-rounded"
+                  :color="!$q.dark.isActive ? 'grey-9' : 'white'"
+                  label="Logs"
+                  icon="mdi-timeline-text-outline"
+                  @click="abrirModalLogs"
+                />
+              </q-card-section>
+            </q-card>
+        </q-item>
         <q-scroll-area style="height: calc(100vh - 70px)">
           <div class="q-pa-sm">
             <q-card
@@ -464,23 +483,6 @@
                   icon="edit"
                   label="Editar Contato"
                   @click="editContact(ticketFocado.contact.id)"
-                />
-              </q-card-section>
-            </q-card>
-            <q-card
-              class="bg-white btn-rounded q-mt-sm"
-              style="width: 100%"
-              bordered
-              flat
-            >
-              <q-card-section class="text-bold q-pa-sm ">
-                <q-btn
-                  flat
-                  class="bg-padrao btn-rounded"
-                  :color="!$q.dark.isActive ? 'grey-9' : 'white'"
-                  label="Logs"
-                  icon="mdi-timeline-text-outline"
-                  @click="abrirModalLogs"
                 />
               </q-card-section>
             </q-card>

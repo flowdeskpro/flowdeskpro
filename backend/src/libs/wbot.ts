@@ -95,7 +95,7 @@ export const initWbot = async (whatsapp: Whatsapp): Promise<Session> => {
           executablePath: process.env.CHROME_BIN || undefined,
           args
         },
-        webVersion: process.env.WEB_VERSION || "2.2412.54",
+        webVersion: process.env.WEB_VERSION || "2.3000.1015262107-alpha",
         webVersionCache: {
           type: "remote",
           remotePath:
